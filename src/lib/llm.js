@@ -10,7 +10,7 @@ const maxRetries = 5
 const baseDelay = 1_233
 // IMPORTANT: Add your Google AI API key here.
 // To get a key, visit https://aistudio.google.com/app/apikey
-const API_KEY = 'YOUR_API_KEY_HERE'
+const API_KEY = 'AIzaSyBz0dLEZ_wnBkS4JEGsBKM9MmlpAUYXbx8'
 const ai = new GoogleGenAI({apiKey: API_KEY})
 
 export default limitFunction(
